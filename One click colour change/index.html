@@ -1,0 +1,51 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+       
+    </head> 
+    <style>
+        .button {
+            background: #444;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+        
+        .button--active {
+          background: red;
+        }
+      </style>
+      
+   
+           
+       
+          
+        
+          
+ 
+        <button class="button js-button" onclick = "gfg_Run()" id="button">
+            Open
+          </button>
+          
+        
+          
+        <script>
+          
+         
+          
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+           
+    
+
+              
+            function gfg_Run() {
+                changeColor('red');
+                document.getElementById("button").innerHTML = "Close";
+              
+            }         
+        </script> 
+    </body> 
+</html> 

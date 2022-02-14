@@ -1,0 +1,4 @@
+Angular Reactive Form
+We provided some simple Angular template code. Modify the app-dynamic-form template so that when you change one of the properties in the person object in the form, it is reflected in the json object below it. Your final output should look something like this.
+
+You are free to add classes and styles, but make sure you leave the element ID's as they are. Submit your code once it is complete and our system will validate your output.

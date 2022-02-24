@@ -1,0 +1,6 @@
+Vue List Rendering
+We provided some simple Vue.js template code. Your goal is first to set items equal to an array of three objects with the following properties: name = Daniel, age = 25, name = John, age = 24, name = Jen, age = 31.
+
+Then in the template you should display an unordered list (UL) with list items (LI) within it. The content of each list item should contain two spans (SPAN), one with the name and the other with the age. The span elements should be separated by a single space.
+
+You are free to add classes and styles, but make sure you leave the element ID's as they are. Submit your code once it is complete and our system will validate your output.

@@ -1,0 +1,41 @@
+
+svg{
+display: block;
+  margin: 20px auto;
+  width:600px;
+/*   position:fixed;
+ 
+  left:500px;
+  top:-300px; */
+  
+  }
+#svg2{
+  position:fixed;
+  left:500px;
+  
+}
+  #yellow, #green,#pink{
+   
+   
+    
+  }
+  
+  {
+    margin-left:200px;
+  }
+  
+  html{
+    
+      scroll-snap-type: y mandatory;
+  }
+  
+  .v-spacer{
+/*     border:1px solid green; */
+    height:150vh;
+    width:auto;
+      scroll-snap-align: center;
+  }
+  #yellow, #green{
+    visibility:hidden;
+  }
+

@@ -1,5 +1,3 @@
-
-3
 function LetterCapitalize(str) { 
   var words=str.split(' ');
   for(var i=0;i<words.length;i++){
